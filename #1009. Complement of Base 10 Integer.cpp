@@ -1,9 +1,9 @@
 class Solution {
 public:
     int bitwiseComplement(int n) {
-        if (n == 0) {
-            return 1;
-        }
+        if (n == 0) 
+          return 1;
+        
 
         int answer = 0;
         int power = 1;
