@@ -8,7 +8,7 @@ public:
         });
         int end = points[0][1];
 		
-		// the reason res = 1 is that we need an arrow to destroy the last group. 
+	// the reason res = 1 is that we need an arrow to destroy the last group. 
         int res = 1;
         for (auto point: points)
         {
