@@ -24,6 +24,6 @@ public:
         // in the middle we have to divide the length in two to find maximum distance
         longest = longest%2==0?longest/2:longest/2+1;
         // return the largest distance
-        return std::max({longest, count, beginning});
+        return std::max( {longest, count, beginning} );
     }
 };
