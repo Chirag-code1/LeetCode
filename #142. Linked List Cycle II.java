@@ -11,7 +11,7 @@
  */
 public class Solution {
     public ListNode detectCycle(ListNode head) {
-        if(head == null)
+        if(head == null) //or, !head
             return null;
         
         ListNode fast = head, slow = head;
