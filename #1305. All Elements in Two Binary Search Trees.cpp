@@ -23,7 +23,7 @@ public:
             if (vec1[i] < vec2[j]) 
 	    {mergedVectors[k++] = vec1[i++]; }
             else
-                mergedVectors[k++] = vec2[j++]; 
+	    {mergedVectors[k++] = vec2[j++]; }
         } 
   
     
