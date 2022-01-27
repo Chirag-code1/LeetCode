@@ -5,7 +5,8 @@ public:
         unordered_map<int, vector<int>> indicesOfValue;
         for (int i = 0; i < n; i++)
             indicesOfValue[arr[i]].push_back(i);
-        vector<bool> visited(n); visited[0] = true;
+        vector<bool> visited(n); 
+visited[0] = true;
         queue<int> q; q.push(0);
         int step = 0;
         while (!q.empty()) {
