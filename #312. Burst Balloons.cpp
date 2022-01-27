@@ -7,9 +7,9 @@ public:
         vector<vector<int>> dp(n, vector<int>(n));
         vector<int> new_nums(n, 1);
         int i = 1;
-        for(auto num : nums) {
+        for(auto num : nums) 
             new_nums[i++] = num;
-        }
+        
         for(int len = 2; len <= n; len++) { 
             //iterate from interval length from 2 to n
             for(int i = 0; i <= n - len; i++) {
