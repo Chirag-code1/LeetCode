@@ -15,4 +15,4 @@ public:
 
         return answer;
     }
-};
+}; //revised.
