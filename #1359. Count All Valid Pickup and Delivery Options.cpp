@@ -6,4 +6,4 @@ public:
     for (int i=1; i<2*n; i+=2) res = res * i % cap;
     return res;
 }
-};
+}; //revised.
