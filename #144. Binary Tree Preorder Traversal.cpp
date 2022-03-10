@@ -10,4 +10,4 @@ public:
         preorderTraversal(root->right);
         return v;
     }
-};
+}; //revised. 
