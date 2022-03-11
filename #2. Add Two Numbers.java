@@ -35,4 +35,4 @@ class Solution {
         
         return temp.next;
     }
-}
+} //revised.
